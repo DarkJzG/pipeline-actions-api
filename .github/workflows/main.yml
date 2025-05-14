@@ -47,7 +47,7 @@ jobs:
         run: npm run test:e2e
 
       - name: Actualizamos el artefacto con el reporte de covertura de los tests
-        uses: actions-upload-artifact@v4
+        uses: actions/upload-artifact@v4
         with: 
           name: coverage-report
           path: coverage/
