@@ -38,7 +38,7 @@ jobs:
           
       
       #- name: Corremos el linter
-        #run: npm run lint
+        # run: npm run lint
 
       - name: Corremos las pruebas unitarias y de integracón con su covertura
         run: npm run test:cov
